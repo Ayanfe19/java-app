@@ -16,9 +16,8 @@ spec:
     spec:
       containers:
         - name: java-app
-          image: nanajanashia/demo-app:java-1.0
+          image: ayanfeacrr.azurecr.io/java-app:1.0
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
-      imagePullSecrets:
-        - name: myregistrysecret
+
